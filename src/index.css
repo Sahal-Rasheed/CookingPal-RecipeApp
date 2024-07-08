@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    font-family: Inter, sans-serif;
+    font-feature-settings: 'cv03', 'cv04', 'cv08', 'cv11', 'cv10' !important;
+}
+
+::-webkit-scrollbar {
+    display: none;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
